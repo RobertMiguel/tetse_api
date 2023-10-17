@@ -1,0 +1,15 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 5423,
+  "username": "admin",
+  "password": "admin",
+  "database": "tomb_app",
+  "synchronize": false,
+  "logging": true,
+  "entities": ["src/server/database/models/*.ts"],
+  "migrations": ["src/server/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "src/server/database/migrations"
+  }
+}
